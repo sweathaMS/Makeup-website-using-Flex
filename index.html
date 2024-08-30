@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>makeup</title>
+    <style>
+        .img {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        img {
+            flex-basis: 20%;
+            height: 250px;
+            border: solid black 3px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        .beauty {
+            background-color: palevioletred;
+            border: solid black 3px;
+            
+        }
+
+        .beauty__s1 {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        
+        .line {
+            border: none;
+            border-bottom: 2px solid black; 
+            width: 40%; 
+            margin:5px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="beauty">
+        <div class="beauty__s1">
+            <h1>Makeup Products</h1>
+            <hr class="line">
+        </div>
+        <div class="img">
+            <img src="./lipstick.jpg" alt="Lipstick">
+            <img src="./eyeliner.jpg" alt="Eyeliner">
+            <img src="./eyeshawdow.avif" alt="Eyeshadow">
+            <img src="./blush.avif" alt="Blush">
+            <img src="./kajal.png" alt="Kajal">
+            <img src="./lipstick.jpg" alt="Lipstick">
+            <img src="./nailpolish.avif" alt="Nail Polish">
+            <img src="./sugar.jpg" alt="Sugar">
+        </div>
+    </div>
+</body>
+</html>
